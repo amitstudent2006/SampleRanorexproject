@@ -1,0 +1,162 @@
+﻿<repository
+id="4cea6aa4-f90b-4043-a806-db68be02d8fe"
+name="RanorexWebSampleProjectRepository">
+	<codegen
+	classname="RanorexWebSampleProjectRepository"
+	namespace="RanorexWebSampleProject">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="a85f5746-055d-4269-a0e1-c10dcacb3922"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="8b59c128-29bc-4331-b2c9-38267a21c8fc"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="cafd1286-df03-497a-8906-d6ae4046d393"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="unknown,webelement,formtag"
+			capname="form"
+			id="7e27c9c1-7b73-44d2-9f44-af77a28d7aca"
+			isrooted="True"
+			name="RanorexForm"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="680824f4-00a6-4ffe-990b-0b3420466b2e"
+				name="FirstName"
+				refimgid="a44d6b1e-2acf-44ec-96f8-3e031ce49827"
+				robustPath="/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']//input[@name='FirstName']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']//form[@name='RNRX-Free-Download']//inputtag[@name='FirstName']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="1a849529-d7b6-40c7-86c7-c11588109dd7"
+				name="LastName"
+				refimgid="5c4f6891-28ce-4dfc-84dc-ce4f6eae5950"
+				robustPath="/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']//input[@name='LastName']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']//form[@name='RNRX-Free-Download']//inputtag[@name='LastName']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="a206afa3-dca4-4e53-a03c-0a3039df138a"
+				name="Email"
+				refimgid="5feb99c2-e1f0-4206-b13c-ea496623a125"
+				robustPath="/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']//input[@name='Email']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']//form[@name='RNRX-Free-Download']//inputtag[@name='Email']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="316cb751-d1f0-4e35-a03b-f6aa6cbce267"
+				name="Company"
+				refimgid="f03a2331-f487-43cb-99b4-74eb5c89b234"
+				robustPath="/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']/div/div/div[3]/div/div[1]/div[2]//form[@name='RNRX-Free-Download']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']//form[@name='RNRX-Free-Download']//inputtag[@name='Company']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="4b482ce7-21c3-457e-8b70-3d6111cc2267"
+				name="BusPhone"
+				refimgid="4738712b-0ae0-4665-b277-8ba55a88a29e"
+				robustPath="/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']/div/div/div[3]/div/div[1]/div[2]//form[@name='RNRX-Free-Download']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']//form[@name='RNRX-Free-Download']//inputtag[@name='busPhone']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="fc073af1-d4b8-4669-b9b1-de4ef3eac155"
+				name="JobTitle"
+				refimgid="793822e9-f2a8-4329-a3d8-2443702edc0d"
+				robustPath="/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']/div/div/div[3]/div/div[1]/div[2]//form[@name='RNRX-Free-Download']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']//form[@name='RNRX-Free-Download']//p/inputtag[@name='JobTitle']
+				</item>
+				<item
+				addcaps="unknown,webelement,selecttag"
+				capname="selecttag"
+				id="f6122c8b-492d-4bfc-8827-bcc5715a874c"
+				name="Industry"
+				refimgid="cee57419-4eca-46e7-a71a-4d5f0178f645"
+				robustPath="/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']/div/div/div[3]/div/div[1]/div[2]//form[@name='RNRX-Free-Download']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']//form[@name='RNRX-Free-Download']//select[@name='Industry']
+				</item>
+				<item
+				addcaps="unknown,webelement,selecttag"
+				capname="selecttag"
+				id="c00aaf39-8265-4fe4-87e5-db60f2420b8b"
+				name="DropdownMenu2"
+				refimgid="e44d6a27-f1c1-4475-ba12-05ebf6329f50"
+				robustPath="/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']/div/div/div[3]/div/div[1]/div[2]//form[@name='RNRX-Free-Download']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']//form[@name='RNRX-Free-Download']//select[@name='dropdownMenu2']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="36836a9d-c58b-4c3b-966b-0641cd139617"
+				name="Submit"
+				refimgid="8108beef-5b90-4c8d-a3f7-5b0966d6044b"
+				refpath="/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']/div/div/div[3]/div/div[1]/div[2]/div/div/div/div/form/p/input[@type='submit']"
+				robustPath="/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']//form[@name='RNRX-Free-Download']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']//form[@name='RNRX-Free-Download']/p/input[@type='submit']
+				</item>
+				<basepath>
+					/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']//form[@name='RNRX-Free-Download']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="f1995c12-6540-4eb4-a4be-a24fbc154ff8"
+			name="Country"
+			refimgid="e753eca3-4171-4d5a-acd9-a9f65031ecca"
+			refpath="/dom[@domain='www.ranorex.com']//select[#'country']"
+			robustPath="/dom[@domain='www.ranorex.com']//select[#'country']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//select[#'country']
+			</item>
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

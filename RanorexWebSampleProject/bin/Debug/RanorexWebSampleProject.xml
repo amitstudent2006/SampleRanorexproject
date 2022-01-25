@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RanorexWebSampleProject</name>
+    </assembly>
+    <members>
+        <member name="T:RanorexWebSampleProject.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:RanorexWebSampleProject.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the RanorexWebSampleProjectRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexWebSampleProject.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:RanorexWebSampleProject.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexWebSampleProject.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexWebSampleProject.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexWebSampleProject.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:RanorexWebSampleProject.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:RanorexWebSampleProject.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the RanorexWebSampleProjectRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexWebSampleProject.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:RanorexWebSampleProject.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexWebSampleProject.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexWebSampleProject.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexWebSampleProject.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:RanorexWebSampleProject.RanorexWebSampleProjectRepository">
+            <summary>
+            The class representing the RanorexWebSampleProjectRepository element repository.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the RanorexWebSampleProjectRepository element repository.
+            </summary>
+        </member>
+        <member name="M:RanorexWebSampleProject.RanorexWebSampleProjectRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="T:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.ApplicationUnderTestAppFolder.Country">
+            <summary>
+            The Country item.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.ApplicationUnderTestAppFolder.CountryInfo">
+            <summary>
+            The Country item info.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.ApplicationUnderTestAppFolder.RanorexForm">
+            <summary>
+            The RanorexForm folder.
+            </summary>
+        </member>
+        <member name="T:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder">
+            <summary>
+            The RanorexFormFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RanorexForm  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.FirstName">
+            <summary>
+            The FirstName item.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.FirstNameInfo">
+            <summary>
+            The FirstName item info.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.LastName">
+            <summary>
+            The LastName item.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.LastNameInfo">
+            <summary>
+            The LastName item info.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.Email">
+            <summary>
+            The Email item.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.EmailInfo">
+            <summary>
+            The Email item info.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.Company">
+            <summary>
+            The Company item.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.CompanyInfo">
+            <summary>
+            The Company item info.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.BusPhone">
+            <summary>
+            The BusPhone item.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.BusPhoneInfo">
+            <summary>
+            The BusPhone item info.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.JobTitle">
+            <summary>
+            The JobTitle item.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.JobTitleInfo">
+            <summary>
+            The JobTitle item info.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.Industry">
+            <summary>
+            The Industry item.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.IndustryInfo">
+            <summary>
+            The Industry item info.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.DropdownMenu2">
+            <summary>
+            The DropdownMenu2 item.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.DropdownMenu2Info">
+            <summary>
+            The DropdownMenu2 item info.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.RanorexWebSampleProjectRepositoryFolders.RanorexFormFolder.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="T:RanorexWebSampleProject.FillRanorexSoftwareDownloadForm">
+             <summary>
+            The FillRanorexSoftwareDownloadForm recording.
+             </summary>
+        </member>
+        <member name="F:RanorexWebSampleProject.FillRanorexSoftwareDownloadForm.repo">
+            <summary>
+            Holds an instance of the RanorexWebSampleProjectRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexWebSampleProject.FillRanorexSoftwareDownloadForm.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexWebSampleProject.FillRanorexSoftwareDownloadForm.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:RanorexWebSampleProject.FillRanorexSoftwareDownloadForm.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexWebSampleProject.FillRanorexSoftwareDownloadForm.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexWebSampleProject.FillRanorexSoftwareDownloadForm.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexWebSampleProject.FillRanorexSoftwareDownloadForm.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

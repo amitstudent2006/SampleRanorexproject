@@ -1,0 +1,12 @@
+﻿<Properties>
+  <Array name="active" />
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="RanorexWebSampleProject.rxtst" />
+    <Element value="FillRanorexSoftwareDownloadForm.rxrec" />
+    <Element value="OpenBrowser.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>
